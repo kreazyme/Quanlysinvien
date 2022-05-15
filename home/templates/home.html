@@ -1,0 +1,16 @@
+<h1>This is Template</h1>
+<h2>My name is {{name}}</h2>
+<p>
+    My skill is
+</p>
+<ul>
+    {% for skill in skills %}
+        <li>
+            {{forloop.counter}} - {{skill}}
+        </li>
+    {% endfor %}
+</ul>
+
+{% for i in data%}
+<p>{{i}}</p>
+{%endfor%}
